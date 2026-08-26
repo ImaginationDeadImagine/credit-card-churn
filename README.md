@@ -1,20 +1,48 @@
-# Project XYZ
+# Credit Card Churn (C3): in search of explanatory variables
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**C3** is a data analysis project inspired by the observation of a data user that attrition rates (hereinafter referred to as 'churn') were increasing amongst a bank's customers.  The aim of the project was to investigate with exploratory data analysis whether there were explanatory variables within the dataset that might predict churn for cohorts of customers. 
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Dataset Content
 
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's 100GB limit.
+* The dataset comprises 10,127 customer records in a .csv file of 1.476 MB.
+The fields within an individual record included:
+
+| Variable |
+|-----------|
+| CLIENTNUM |
+| Attrition_Flag |
+| Customer_Age |
+| Gender |
+| Dependent_count |
+| Education_Level |
+| Marital_Status |
+| Income_Category |
+| Card_Category |
+| Months_on_book |
+| Total_Relationship_Count |
+| Months_Inactive_12_mon |
+| Contacts_Count_12_mon |
+| Credit_Limit |
+| Total_Revolving_Bal |
+| Avg_Open_To_Buy |
+| Total_Amt_Chng_Q4_Q1 |
+| Total_Trans_Amt |
+| Total_Trans_Ct |
+| Total_Ct_Chng_Q4_Q1 |
+| Avg_Utilization_Ratio |
+| Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 |
+| Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 |
 
 ## Business Requirements
 
-* Describe your business requirements
+* The bank would like to identify predictive variables within its dataset to help identify customers likely to churn so that efforts might be directed towards retaining them as customers.
 
 ## Hypothesis and how to validate?
 
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* The project hypothesis is that there are variables within the bank's dataset that can predict churn.
+* The hypothesis does not claim that any individual variable can be identified at the outset as likely to be predictive.  Rather, the initial phase of the project will consist of exploratory data analysis with the aim of identifying predictive variables. 
 
 ## Project Plan
 
