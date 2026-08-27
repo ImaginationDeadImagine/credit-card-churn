@@ -1,6 +1,6 @@
 # Credit Card Churn (C3): in search of explanatory variables
 
-**C3** is a data analysis project inspired by the observation of a data user that attrition rates (hereinafter referred to as 'churn') were increasing amongst a bank's customers.  The aim of the project was to investigate with exploratory data analysis whether there were explanatory variables within the dataset that might predict churn for cohorts of customers. 
+**C3** is a data analysis project inspired by the intuition of a bank manager that attrition rates (hereinafter referred to as 'churn') are increasing amongst the bank's customers.  The aim of the project is to investigate with exploratory data analysis whether there are explanatory variables within the dataset that might predict churn for cohorts of customers. 
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
