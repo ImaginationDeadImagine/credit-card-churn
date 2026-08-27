@@ -41,12 +41,14 @@ The fields within an individual record included:
 
 ## Hypothesis and how to validate?
 
-* The project hypothesis is that there are variables within the bank's dataset that can predict churn.
-* The hypothesis does not claim that any individual variable can be identified at the outset as likely to be predictive.  Rather, the initial phase of the project will consist of exploratory data analysis with the aim of identifying predictive variables. 
+* The null hypothesis is that there are no variables within the bank's dataset that can predict churn.
+* The alternative hypothesis claims that there are individual variables which are predictive of churn.
+* The initial phase of the project will consist of exploratory data analysis with the aim of identifying predictive variables. 
 
 ## Project Plan
 
-* Outline the high-level steps taken for the analysis.
+* The provided dataset was cleaned prior to analysis.  The cleaning steps were carried out in the attached Jupyter Notebook, C3_Notebook.ipynb.
+* The steps were carried out using pandas and the data processed was contained in the BankChurners_clean.csv file.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
 
